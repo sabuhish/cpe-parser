@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "cpe-parser"
+name = "cpeparser"
 version = "0.0.1"
 description = "CPE - Common platform enumeration parser in Python"
 authors = ["sabuhish <sabuhi.shukurov@gmail.com>"]
