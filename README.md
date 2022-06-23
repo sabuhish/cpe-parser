@@ -7,7 +7,7 @@ The cpe-parser libray is a parses for CPE value. This cpe value can be either ur
 ###  🔨  Installation ###
 
 ```sh
- $ pip install cpe-parser
+ $ pip install cpeparser
 ```
 
 
