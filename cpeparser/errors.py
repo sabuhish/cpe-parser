@@ -1,7 +1,7 @@
 
 class CpeFormatError(Exception):
     """
-        message  explanation of the error
+    explanation of the error with message param
     """
     def __init__(self, message: str):
         self.message = message

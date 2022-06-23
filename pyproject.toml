@@ -1,14 +1,37 @@
 [tool.poetry]
 name = "cpe-parser"
-version = "0.1.0"
-description = ""
+version = "0.0.1"
+description = "CPE - Common platform enumeration parser in Python"
 authors = ["sabuhish <sabuhi.shukurov@gmail.com>"]
-
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/sabuhish/fastapi-mail"
+repository = "https://github.com/sabuhish/fastapi-mail"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
 [tool.poetry.dependencies]
 python = "^3.9"
 
 [tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+pytest = "^7.1.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.blue]
+line-length = 100
