@@ -5,8 +5,8 @@ description = "CPE - Common platform enumeration parser in Python"
 authors = ["sabuhish <sabuhi.shukurov@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/sabuhish/fastapi-mail"
-repository = "https://github.com/sabuhish/fastapi-mail"
+homepage = "https://github.com/sabuhish/cpe-parser"
+repository = "https://github.com/sabuhish/cpe-parser"
 classifiers = [
     "Intended Audience :: Developers",
     "Programming Language :: Python",
