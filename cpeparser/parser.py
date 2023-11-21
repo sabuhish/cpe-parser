@@ -34,6 +34,9 @@ class CpeParser:
         Returns attributes of the cpe
         """
         attributes = cpe_attributes.split(":")
+        while len(attributes) < len(self.cpe_attributes):
+            attributes.append('')
+
         if self.__is_uri_binding_cpe(cpe) or self.uri_binding_delimiterKey not in cpe:
             return attributes
 
